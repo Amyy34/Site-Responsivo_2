@@ -1,17 +1,17 @@
 function abrirFechar(){
-  let img=document.querySelector('.icon-setinha');
+  let img =document.querySelector('.icon-setinha');
   let imgM=document.getElementById('icon-setinha')
   
   if(img.classList.contains('open')){
     img.classList.remove('open');
-    img.src="/icon-arrow-down.svg";
-    imgM.src="/icon-arrow-down.svg";
+    img.src="/seta-baixo.png";
+    imgM.src="/seta-baixo.png";
     
   }
   else{
     img.classList.add('open');
-    img.src="/icon-arrow-up.svg";
-    imgM.src="/icon-arrow-up.svg";
+    img.src="/seta-cima.png";
+    imgM.src="/seta-cima.png";
   }
   }
   function abrirFechar2(){
@@ -20,14 +20,14 @@ function abrirFechar(){
   
   if(img2.classList.contains('open')){
     img2.classList.remove('open');
-    img2.src="/icon-arrow-down.svg";
-    imgM3.src="/icon-arrow-down.svg";
+    img2.src="/seta-baixo.png";
+    imgM3.src="/seta-baixo.png";
     
   }
   else{
     img2.classList.add('open');
-    img2.src="/icon-arrow-up.svg";
-    imgM3.src="/icon-arrow-up.svg";
+    img2.src="/seta-cima.png";
+    imgM3.src="/seta-cima.png";
   }
   }
   function menu(){

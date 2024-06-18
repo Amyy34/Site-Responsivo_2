@@ -200,10 +200,15 @@
   footer{
     margin-bottom:10px ;
   }
+  .icon-setinha,.icon-setinha-2, #icon-setinha{
+    width:15px;
+    height: 15px;
+  }
   @media screen and (max-width: 768px) {
     nav{
       display:none;
     }
+  
     .icon-menu{
    display :flex ;
    
