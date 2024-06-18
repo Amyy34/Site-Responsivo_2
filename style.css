@@ -1,0 +1,331 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+  body {
+    margin:0 auto;
+    background-color:hsl(0,0%,98%);
+    max-width:1080px;
+  }
+  summary{
+    list-style:none;
+    cursor: pointer;
+  }
+  Header{
+    height:60px;
+    display:flex;
+  }
+  .listFora{
+  display:flex;
+  list-style: none ;
+  margin-top: 25px ;
+  margin-left:0px ;
+  margin-right:180px ;
+  cursor: pointer;
+  
+  
+  }
+  .logo{
+    margin-top:12px ;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+  }
+  .listFora li {
+  margin: 0 20px 0 20px;
+  padding-left:10px;
+  color:hsl(0,0%,41%);
+  font-weight:500;
+  }
+  .listFora li a:hover{
+    color:hsl(0,0%,8%);
+  }
+  .links{
+    margin-top:08px ;
+  }
+  nav{
+    display:flex ;
+    justify-content:space-between ;
+  }
+  .conteudo{
+    display:flex;
+    justify-content:space-between ;
+    align-content:center;
+    margin:60px 0 50px 0;
+  }
+  .imagem img{
+  width:100%;
+  height:585px;
+  }
+  .text{
+    margin-top:90px;
+    width :490px;
+    
+  }
+  .text h1{
+    font-size:89px;
+    line-height:70px ;
+    font-weight: 700;
+    color:hsl(0,0%,8%);
+  }
+  .text p{
+    margin-top:60px ;
+    width:350px;
+    font-size:17.5px ;
+    line-height: 30px ;
+    font-weight:500;
+    color:hsl(0, 0%, 41%);
+  }
+  .text button{
+    margin-top:40px;
+    background-color:hsl(0, 0%, 8%);
+    color:hsl(0, 0%, 98%);
+    padding:17px 29px 17px 29px;
+    border-radius:15px;
+    font-weight:bold;
+    font-size: 17px;
+    border:none;
+    cursor: pointer;
+  }
+  .text button:hover{
+    background-color:transparent;
+    border:solid 2px hsl(0, 0%, 8%);
+    color:hsl(0, 0%, 8%);
+  }
+  #login{
+    border:none;
+    background-color:transparent;
+    font-weight:500;
+    margin-right:20px;
+    font-size:16px;
+    color:hsl(0, 0%, 41%);
+    cursor: pointer;
+  }
+  #login:hover{
+    color: hsl(0, 0%, 8%);
+  }
+  #registro{
+    padding:12px 25px 12px 25px;
+    border-radius:15px;
+    border:solid 2px hsl(0,0%,41%);
+    background:transparent;
+    color:hsl(0,0%,41%);
+    font-weight:500;
+    font-size:16px;
+    cursor: pointer;
+  }
+  #registro:hover{
+    border: solid 2px hsl(0, 0%, 8%) ;
+    color:hsl(0, 0%, 8%);
+  }
+  .cliente {
+    margin-right:25px;
+    margin-top:100px;
+    
+  }
+ .cliente img{
+   padding-left:20px;
+ }
+  summary img{
+    position:relative;
+    margin:10px 0 0 8px;
+  }
+  .listaInterna{
+    display:flex;
+    flex-direction:column;
+    text-align:left ;
+    position:absolute;
+    left:87px;
+    top:60px;
+    line-height:px;
+    list-style-type:none;
+    background-color :white;
+    border-radius:12px;
+    box-shadow: 5px 0px 40px 0px  hsl(0, 0%,80%);
+    padding:25px 7px 15px 7px;
+    
+    font-size: 16px ;
+  }
+  .listaInterna li{
+    padding:0px 0px 8px 0px;
+    list-style-type:none;
+  }
+  .listaInterna li a{
+    font-weight:400;
+    
+  }
+  .listaInterna li img{
+    margin-right:10px;
+
+  }
+  .botoes{
+    margin-top:11px ;
+    position: absolute;
+    right: 15px;
+  }
+  .listaInterna2{
+    display:flex;
+    flex-direction:column;
+    text-align:left ;
+    position:absolute;
+    left:287px;
+    top:60px;
+    list-style-type:none;
+    background-color :white;
+    border-radius:12px;
+    box-shadow: 5px 0px 40px 0px  hsl(0, 0%,80%);
+    padding:15px 0 7px 0 ;
+    font-size:16px ;
+  }
+  .listaInterna2 a{
+    font-weight:400;
+  }
+  .listaInterna2 li{
+    padding-bottom:8px;
+  }
+  .menu{
+    display:none;
+  }
+  .nav{
+    display: none ;
+  }
+  footer a:link{
+    text-decoration:none;
+    color:#eb6fbd;
+  }
+  footer{
+    margin-bottom:10px ;
+  }
+  @media screen and (max-width: 768px) {
+    nav{
+      display:none;
+    }
+    .icon-menu{
+   display :flex ;
+   
+    }
+    .open{
+      display:block ;
+    }
+    header{
+      display:flex;
+      justify-content:space-between ;
+      width:100%;
+    }
+    .logo{
+      margin:0;
+    }
+    .conteudo{
+      display:flex;
+      flex-direction:column-reverse;
+      width:100%;
+      text-align: center ;
+      margin-top:0;
+    }
+    .text,.text p{
+      width:100%;
+    }
+    .listaInterna-mobile{
+      display:flex;
+      flex-direction:column;
+      list-style:none ;
+      text-align:left;
+      margin-left:25px;
+      font-size:16px;
+      padding-top:6px;
+      }
+      #listaInterna2{
+        margin-left:15px;
+      }
+    .listFora-mobile{
+        list-style:none ;
+        margin:50px 30px 40px 30px;
+      color:hsl(0,0%,41%);
+      font-weight:500;
+    }
+    .listFora-mobile li{
+       padding-top: 27px;
+    }
+    .listaInterna-mobile li{
+      padding-top:23px;
+    }
+    .listaInterna-mobile li a{
+      padding-left: 10px ;
+    }
+    .menu{
+      display: flex ;
+   position:absolute;
+   right:10px;
+   top:20px;
+    }
+    .nav{
+      flex-direction:column;
+      position:fixed;
+      top:0px;
+      right:0;
+      height:100vh;
+      width:63vw;
+      background:hsl(0,0%,98%);
+      box-shadow: -160px 0 0 0 HSLA(0,0%,8%,0.7);
+    }
+    .botoes{
+      display:flex;
+      flex-direction:column ;
+      position:static;
+      margin:0 20px 0 20px;
+      
+    }
+    .logo{
+      position:none;
+      margin-top:07px;
+    }
+    .imagem img{
+     width:100%;
+     height:auto;
+    }
+    .text h1{
+      font-size:40px;
+      margin:0;
+      padding :0;
+    }
+    
+    .text{
+      padding:0 20px 0 20px;
+      margin-top:20px;
+      
+    }
+    .text p{
+      margin:0;
+    }
+    .text button {
+      margin-top:25px;
+    }
+ .cliente{
+    display:flex;
+    justify-content:space-between ;
+    margin:50px 0px 0px 0;
+    
+  }
+  .cliente img{
+    width:100px; 
+    height: 18px;
+    padding:0 15px 0 15px;
+  }
+  .close{
+    position: absolute ;
+    right:20px;
+    top:20px;
+    }
+  #login{
+    margin:0 5px 18px 0px;
+    text-align:center;
+  }
+  .disabled{
+  pointer-events:none;
+  }
+  }
+  /*ola*/

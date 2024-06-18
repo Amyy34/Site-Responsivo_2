@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css"/>
+  
+  <title>Trabalhe Remoto</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+ <header>
+   
+   <nav >
+<ul class=listFora> 
+    <li>
+<details>
+<summary onclick="abrirFechar()"><a>Características</a>
+<img class="icon-setinha" rel="icon" src="/icon-arrow-down.svg">
+</summary>
+<ul class="listaInterna">
+  <li>
+    <img src="icon-todo.svg" alt="icon-todo.svg" width="16px" height="16px">
+    <a>lista de afazeres</a>
+  </li>
+  <li>
+    <img src="icon-calendar.svg" alt="icon-calendar.svg" width="16px" height="16px">
+    <a>Calendário</a>
+  </li>
+    <li>
+      <img src="icon-reminders.svg" alt="icon-reminders.svg" width="16px" height="16px">
+    <a>Lembretes</a>
+  </li>
+   <li>
+     <img src="icon-planning.svg" alt="icon-planning.svg" width="16px" heigth="16px">
+    <a>Planejamento</a>
+  </li>
+</ul>
+</details>
+    </li>
+    <li>
+  <details>
+<summary onclick="abrirFechar2()"><a>Empresa</a>
+<img class="icon-setinha-2" rel="icon" src="/icon-arrow-down.svg">
+</summary>
+<ul class="listaInterna2">
+  <li>
+    <a>Historia</a>
+  </li>
+  <li>
+    <a>Nosso Time</a>
+  </li>
+    <li>
+    <a>Blog</a>
+  </li>
+</ul>
+</details></li>
+  <li><a>Carreira</a></li>
+  <li><a>Sobre</a></li> 
+</ul>
+
+  <div class="botoes" >
+  <button id="login">Login</button>
+ <button id="registro"> Registro</button>
+ </div>
+  </nav>
+
+<img class="menu" src="icon-menu.svg" alt="icon-menu.svg" onclick="menu()" width="40px" height="20px">
+
+  <div class="nav">
+    <img  onclick="menu()" src="icon-close-menu.svg" alt="icon-close-menu.svg" class="close">
+<ul class=listFora-mobile> 
+    <li>
+<details>
+<summary onclick="abrirFechar()"><a>Características</a>
+<img class="icon-setinha"  id="icon-setinha"rel="icon" src="/icon-arrow-down.svg">
+</summary>
+<ul class="listaInterna-mobile">
+  <li>
+    <img src="icon-todo.svg" alt="icon-todo.svg" width="18px" height="18px">
+ <a>Lista de afazeres</a>
+  </li>
+  <li>
+    <img src="icon-calendar.svg" alt="icon-calendar.svg" width="18px" height="18px">
+    <a>Calendário</a>
+  </li>
+    <li>
+      <img src="icon-reminders.svg" alt="icon-reminders.svg" width="18px" height="18px">
+    <a>Lembrete</a>
+  </li>
+   <li>
+     <img src="icon-planning.svg" alt="icon-planning.svg" width="18px" heigth="20px">
+    <a>Planejamento</a>
+  </li>
+</ul>
+</details>
+    </li>
+    <li>
+  <details>
+<summary onclick="abrirFechar2()"><a>Empresa</a>
+<img class="icon-setinha-2" id="icon-setinha-2" rel="icon" src="/icon-arrow-down.svg">
+</summary>
+<ul class="listaInterna-mobile" id="listaInterna2">
+  <li>
+    <a>História</a>
+  </li>
+  <li>
+    <a>Nosso Time</a>
+  </li>
+    <li>
+    <a>Blog</a>
+  </li>
+</ul>
+</details></li>
+  <li><a>Carreira</a></li>
+  <li><a>Sobre</a></li> 
+</ul>
+  <div class="botoes" >
+  <button id="login">Login</button>
+ <button id="registro"> Registro</button>
+  </div>
+</header>
+ <div class="conteudo">
+   <div class="text">
+     
+ <h1> Faça seu trabalho remoto</h1>
+
+  <p>Obtenha seu time com sincronizaçao não importa sua localização.
+  Agilize processos, crie rituais de equipes, e assista seu time disparar.</p>
+
+<button>Ler mais</button>
+<div class="cliente">
+  
+<img src="client-databiz.svg" alt="client-databiz.svg">
+<img src="client-audiophile.svg" alt="">
+<img src="client-meet.svg" alt="client-meet.svg">
+<img src="client-maker.svg" alt="client-maker.svg">
+</div>
+   </div>
+  <div class="imagem">
+     <picture>
+            <source
+              media="(max-width: 768px)"
+              srcset="image-hero-mobile.png"
+              class="imgP"
+            />
+            <source
+              media="(min-width:900px)"
+              srcset="image-hero-desktop.png"
+              class="imgG"
+            />
+            <img
+              src="image-hero-desktop.png"
+              alt="Chris standing up holding his daughter Elva"
+            />
+          </picture>
+  </div>
+  </div>
+  <footer class="attribution">
+    Codificado por <a href="https://amyy34.github.io/Curriculo-amy/">Amy S.S</a>.
+  </footer>
+  <script src="main.js"></script>
+</body>
+
+
+</html>
